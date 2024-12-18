@@ -61,13 +61,13 @@ The **Arman Chat Bot** was created to streamline the process of matching childre
 
 2. **Install Dependencies:**
     ```bash
-    pip install -r [requirements.txt](requirements.txt)
+    pip install -r requirements.txt
     ```
 
 3. **Initialize the Database:**  
    Run the script to populate the database with orphan details:
     ```bash
-    python [helper_methods/create_database.py](helper_methods/create_database.py)
+    python helper_methods/create_database.py
     ```
 
 4. **Configure the Environment:**  
@@ -77,7 +77,7 @@ The **Arman Chat Bot** was created to streamline the process of matching childre
 
 5. **Run the Bot:**
     ```bash
-    python [bot.py](bot.py)
+    python bot.py
     ```
 
 ---
@@ -100,4 +100,4 @@ Deploy the bot to a server (e.g., AWS EC2) or a serverless environment (e.g., AW
 
 ## S3 Backup
 
-The bot uploads two Excel files (`[orphans.xlsx](https://example.com/orphans.xlsx)` and `[chosen_kids.xlsx](https://example.com/chosen_kids.xlsx)`) to an S3 bucket after each update. Ensure your AWS credentials are configured using `~/.aws/credentials` or environment variables.
+The bot uploads two Excel files (`[orphans.xlsx] and `[chosen_kids.xlsx] to an S3 bucket after each update. Ensure your AWS credentials are configured using `~/.aws/credentials` or environment variables.
