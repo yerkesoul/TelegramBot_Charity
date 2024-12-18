@@ -44,7 +44,7 @@ The **Arman Chat Bot** was created to streamline the process of matching childre
 
 
 
-## Getting Started
+# Getting Started
 
 ### Prerequisites
 - Python 3.8+
